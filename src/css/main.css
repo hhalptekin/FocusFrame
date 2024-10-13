@@ -1,69 +1,73 @@
-@media screen and (max-width: 320px) {
-    .baslik{
-        color: red;
+        /* Genel düzen (kauçuk düzen) */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    }
-}
-@media screen and (max-width: 320px) {
-    .baslik{
-        color: red;
-        
-    }
-}
-@media screen and (max-width: 320px) {
-    .baslik{
-        color: red;
-        
-    }
-}
-body{
-    background-color: black;
-}
-.header{
-    background-color: #FFFFFF;
-}
-nav {
-  color: #FFFFFF;
-}
-.Focus-frame{
-    width: 123.12px;
-    height: 16.25px;
-    gap: 0px;
-    opacity: 0px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.focus-link {
-    color: #FFFFFF;
-}
-.link{
-    color: #FFFFFF;
-    width: 67px;
-    height: 18px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.23px;
-    text-align: left;
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: #121212;
 
+            color: #fff;
+        }
 
-}
-.menu-focus-frame-nav{
-    width: 59px;
-    height: 18px;
-    font-family: DM Sans;
-    font-size: 14px;
-    line-height: 18.23px;
-    text-align: left;
-    color: #FFFFFF;
-    display: flex;
-    line height: 18.23px;
-}
-.focus-frame-list {
-   
-}
-.buton {
-    
-}
+        /* Header - üst menü düzeni */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #121212;
+        }
+
+        .logo h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .signup-button {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #121212;
+
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Mobile (320px ile 375px arası) */
+        @media (max-width: 375px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            /* Tablet (768px'e kadar) */
+            @media (min-width: 376px) and (max-width: 768px) {
+                header {
+                    padding: 10px;
+                }
+
+                nav ul {
+                    gap: 15px;
+                }
+
+                /* Desktop (768px'ten itibaren) */
+                @media (min-width: 769px) and (max-width: 1280px) {}
