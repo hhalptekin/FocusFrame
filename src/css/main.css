@@ -46,7 +46,6 @@
             text-decoration: none;
             border-radius: 5px;
         }
-
         /* Mobile (320px ile 375px arası) */
         @media (max-width: 375px) {
             header {
