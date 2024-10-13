@@ -22,17 +22,48 @@ body{
 .header{
     background-color: #FFFFFF;
 }
+nav {
+  color: #FFFFFF;
+}
 .Focus-frame{
     width: 123.12px;
     height: 16.25px;
     gap: 0px;
     opacity: 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.focus-link {
+    color: #FFFFFF;
+}
+.link{
+    color: #FFFFFF;
+    width: 67px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.23px;
+    text-align: left;
+
+
 }
 .menu-focus-frame-nav{
-font-family: DM Sans;
-font-size: 14px;
-font-weight: 400;
-line-height: 18.23px;
-text-align: left;
-text-decoration: #FFFFFF;
+    width: 59px;
+    height: 18px;
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 18.23px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    line height: 18.23px;
+}
+.focus-frame-list {
+   
+}
+.buton {
+    
 }
