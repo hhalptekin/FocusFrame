@@ -21,6 +21,16 @@
             background-color: #121212;
         }
 
+        /* Hero düzeni */
+        .hero-icon-Reviews{
+            background-color: #BEA69E;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            /* padding: 12px; */
+            /* display: block; */
+        }
+
         .logo h1 {
             font-size: 24px;
         }
@@ -70,3 +80,5 @@
 
                 /* Desktop (768px'ten itibaren) */
                 @media (min-width: 769px) and (max-width: 1280px) {}
+
+            
